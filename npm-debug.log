@@ -1,0 +1,283 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'isntall', 'sass', '-g' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.36
+4 verbose cache add [ 'sass', null ]
+5 verbose cache add name=undefined spec="sass" args=["sass",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'sass',
+6 verbose parsed url   path: 'sass',
+6 verbose parsed url   href: 'sass' }
+7 silly lockFile 5d7463cd-sass sass
+8 verbose lock sass /var/www/vhosts/.npm/5d7463cd-sass.lock
+9 silly lockFile 5d7463cd-sass sass
+10 silly lockFile 5d7463cd-sass sass
+11 verbose addNamed [ 'sass', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile abea0ec1-sass sass@
+14 verbose lock sass@ /var/www/vhosts/.npm/abea0ec1-sass.lock
+15 silly addNameRange { name: 'sass', range: '*', hasData: false }
+16 verbose url raw sass
+17 verbose url resolving [ 'https://registry.npmjs.org/', './sass' ]
+18 verbose url resolved https://registry.npmjs.org/sass
+19 info trying registry request attempt 1 at 17:27:27
+20 http GET https://registry.npmjs.org/sass
+21 http 200 https://registry.npmjs.org/sass
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"CBHU98H6G4O42SKTJQBG2PZBH"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=60',
+22 silly registry.get     'content-length': '2977',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Tue, 08 Dec 2015 22:27:27 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '60',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-atl6230-ATL',
+22 silly registry.get     'x-cache': 'HIT',
+22 silly registry.get     'x-cache-hits': '2',
+22 silly registry.get     'x-timer': 'S1449613647.300376,VS0,VE0',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'sass', range: '*', hasData: true }
+24 silly addNameRange versions [ 'sass', [ '0.4.0', '0.4.1', '0.4.2', '0.4.3', '0.5.0' ] ]
+25 verbose addNamed [ 'sass', '0.5.0' ]
+26 verbose addNamed [ '0.5.0', '0.5.0' ]
+27 silly lockFile 69745589-sass-0-5-0 sass@0.5.0
+28 verbose lock sass@0.5.0 /var/www/vhosts/.npm/69745589-sass-0-5-0.lock
+29 silly lockFile f65119f2-ry-npmjs-org-sass-sass-0-5-0-tgz https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+30 verbose lock https://registry.npmjs.org/sass/-/sass-0.5.0.tgz /var/www/vhosts/.npm/f65119f2-ry-npmjs-org-sass-sass-0-5-0-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/sass/-/sass-0.5.0.tgz',
+31 verbose addRemoteTarball   '9dee1183a0f400361f2c5d3453bf2e54705e03f9' ]
+32 info retry fetch attempt 1 at 17:27:27
+33 verbose fetch to= /var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/tmp.tgz
+34 http GET https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+35 http 200 https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+36 verbose tar unpack /var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/tmp.tgz
+37 silly lockFile 592d16d4-47312-0-9968927688896656-package tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package
+38 verbose lock tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package /var/www/vhosts/.npm/592d16d4-47312-0-9968927688896656-package.lock
+39 silly lockFile a4204a26-47312-0-9968927688896656-tmp-tgz tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/tmp.tgz
+40 verbose lock tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/tmp.tgz /var/www/vhosts/.npm/a4204a26-47312-0-9968927688896656-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry
+43 silly gunzTarPerm extractEntry .gitignore
+44 silly gunzTarPerm extractEntry ._History.md
+45 silly gunzTarPerm extractEntry History.md
+46 silly gunzTarPerm extractEntry index.js
+47 silly gunzTarPerm extractEntry lib/
+48 silly gunzTarPerm extractEntry Makefile
+49 silly gunzTarPerm extractEntry ._package.json
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm extractEntry ._Readme.md
+52 warn excluding symbolic link index.js -> lib/sass.js
+53 silly gunzTarPerm extractEntry Readme.md
+54 silly gunzTarPerm extractEntry spec/
+55 silly gunzTarPerm extractEntry spec/fixtures/
+56 silly gunzTarPerm extractEntry spec/lib/
+57 silly gunzTarPerm extractEntry spec/node.js
+58 silly gunzTarPerm extractEntry spec/spec.core.js
+59 silly gunzTarPerm extractEntry spec/lib/images/
+60 silly gunzTarPerm extractEntry spec/lib/jspec.css
+61 silly gunzTarPerm extractEntry spec/lib/jspec.growl.js
+62 silly gunzTarPerm extractEntry spec/lib/jspec.jquery.js
+63 silly gunzTarPerm extractEntry spec/lib/jspec.js
+64 silly gunzTarPerm extractEntry spec/lib/jspec.nodejs.js
+65 silly gunzTarPerm extractEntry spec/lib/jspec.shell.js
+66 silly gunzTarPerm extractEntry spec/lib/jspec.timers.js
+67 silly gunzTarPerm extractEntry spec/lib/jspec.xhr.js
+68 silly gunzTarPerm extractEntry spec/lib/images/bg.png
+69 silly gunzTarPerm extractEntry spec/lib/images/hr.png
+70 silly gunzTarPerm extractEntry spec/lib/images/loading.gif
+71 silly gunzTarPerm extractEntry spec/lib/images/sprites.bg.png
+72 silly gunzTarPerm extractEntry spec/lib/images/sprites.png
+73 silly gunzTarPerm extractEntry spec/lib/images/vr.png
+74 silly gunzTarPerm extractEntry spec/fixtures/collect.sass
+75 silly gunzTarPerm extractEntry spec/fixtures/._comment.css
+76 silly gunzTarPerm extractEntry spec/fixtures/comment.css
+77 silly gunzTarPerm extractEntry spec/fixtures/._comment.sass
+78 silly gunzTarPerm extractEntry spec/fixtures/comment.sass
+79 silly gunzTarPerm extractEntry spec/fixtures/continuation.css
+80 silly gunzTarPerm extractEntry spec/fixtures/continuation.sass
+81 silly gunzTarPerm extractEntry spec/fixtures/literal.css
+82 silly gunzTarPerm extractEntry spec/fixtures/._literal.sass
+83 silly gunzTarPerm extractEntry spec/fixtures/literal.sass
+84 silly gunzTarPerm extractEntry spec/fixtures/mixin.css
+85 silly gunzTarPerm extractEntry spec/fixtures/mixin.multiple.css
+86 silly gunzTarPerm extractEntry spec/fixtures/mixin.multiple.sass
+87 silly gunzTarPerm extractEntry spec/fixtures/._mixin.sass
+88 silly gunzTarPerm extractEntry spec/fixtures/mixin.sass
+89 silly gunzTarPerm extractEntry spec/fixtures/mixin.undefined.sass
+90 silly gunzTarPerm extractEntry spec/fixtures/properties.css
+91 silly gunzTarPerm extractEntry spec/fixtures/properties.expand.css
+92 silly gunzTarPerm extractEntry spec/fixtures/properties.expand.sass
+93 silly gunzTarPerm extractEntry spec/fixtures/._properties.invalid.sass
+94 silly gunzTarPerm extractEntry spec/fixtures/properties.invalid.sass
+95 silly gunzTarPerm extractEntry spec/fixtures/._properties.nested.css
+96 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.css
+97 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.invalid.sass
+98 silly gunzTarPerm extractEntry spec/fixtures/._properties.nested.sass
+99 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.sass
+100 silly gunzTarPerm extractEntry spec/fixtures/properties.sass
+101 silly gunzTarPerm extractEntry spec/fixtures/selectors.css
+102 silly gunzTarPerm extractEntry spec/fixtures/selectors.sass
+103 silly gunzTarPerm extractEntry spec/fixtures/variables.alternate.css
+104 silly gunzTarPerm extractEntry spec/fixtures/variables.alternate.sass
+105 silly gunzTarPerm extractEntry spec/fixtures/variables.css
+106 silly gunzTarPerm extractEntry spec/fixtures/variables.dependent.css
+107 silly gunzTarPerm extractEntry spec/fixtures/variables.dependent.sass
+108 silly gunzTarPerm extractEntry spec/fixtures/variables.regular.css
+109 silly gunzTarPerm extractEntry spec/fixtures/variables.regular.sass
+110 silly gunzTarPerm extractEntry spec/fixtures/variables.sass
+111 silly gunzTarPerm extractEntry lib/index.js
+112 silly gunzTarPerm extractEntry lib/._sass.js
+113 silly gunzTarPerm extractEntry lib/sass.js
+114 warn excluding symbolic link lib/index.js -> sass.js
+115 silly lockFile 592d16d4-47312-0-9968927688896656-package tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package
+116 silly lockFile 592d16d4-47312-0-9968927688896656-package tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package
+117 silly lockFile a4204a26-47312-0-9968927688896656-tmp-tgz tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/tmp.tgz
+118 silly lockFile a4204a26-47312-0-9968927688896656-tmp-tgz tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/tmp.tgz
+119 verbose tar pack [ '/var/www/vhosts/.npm/sass/0.5.0/package.tgz',
+119 verbose tar pack   '/var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package' ]
+120 verbose tarball /var/www/vhosts/.npm/sass/0.5.0/package.tgz
+121 verbose folder /var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package
+122 silly lockFile 592d16d4-47312-0-9968927688896656-package tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package
+123 verbose lock tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package /var/www/vhosts/.npm/592d16d4-47312-0-9968927688896656-package.lock
+124 silly lockFile 01e044c6-hosts-npm-sass-0-5-0-package-tgz tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz
+125 verbose lock tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz /var/www/vhosts/.npm/01e044c6-hosts-npm-sass-0-5-0-package-tgz.lock
+126 silly lockFile 592d16d4-47312-0-9968927688896656-package tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package
+127 silly lockFile 592d16d4-47312-0-9968927688896656-package tar:///var/www/vhosts/tmp/npm-20043-KNlC03e8/1449613647312-0.9968927688896656/package
+128 silly lockFile 01e044c6-hosts-npm-sass-0-5-0-package-tgz tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz
+129 silly lockFile 01e044c6-hosts-npm-sass-0-5-0-package-tgz tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz
+130 silly lockFile c0865fe7-ww-vhosts-npm-sass-0-5-0-package /var/www/vhosts/.npm/sass/0.5.0/package
+131 verbose lock /var/www/vhosts/.npm/sass/0.5.0/package /var/www/vhosts/.npm/c0865fe7-ww-vhosts-npm-sass-0-5-0-package.lock
+132 silly lockFile c0865fe7-ww-vhosts-npm-sass-0-5-0-package /var/www/vhosts/.npm/sass/0.5.0/package
+133 silly lockFile c0865fe7-ww-vhosts-npm-sass-0-5-0-package /var/www/vhosts/.npm/sass/0.5.0/package
+134 verbose tar unpack /var/www/vhosts/.npm/sass/0.5.0/package.tgz
+135 silly lockFile 8b92a8c2-ww-vhosts-npm-sass-0-5-0-package tar:///var/www/vhosts/.npm/sass/0.5.0/package
+136 verbose lock tar:///var/www/vhosts/.npm/sass/0.5.0/package /var/www/vhosts/.npm/8b92a8c2-ww-vhosts-npm-sass-0-5-0-package.lock
+137 silly lockFile 01e044c6-hosts-npm-sass-0-5-0-package-tgz tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz
+138 verbose lock tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz /var/www/vhosts/.npm/01e044c6-hosts-npm-sass-0-5-0-package-tgz.lock
+139 silly gunzTarPerm modes [ '755', '644' ]
+140 silly gunzTarPerm extractEntry package.json
+141 silly gunzTarPerm extractEntry .npmignore
+142 silly gunzTarPerm extractEntry History.md
+143 silly gunzTarPerm extractEntry Makefile
+144 silly gunzTarPerm extractEntry Readme.md
+145 silly gunzTarPerm extractEntry lib/sass.js
+146 silly gunzTarPerm extractEntry spec/node.js
+147 silly gunzTarPerm extractEntry spec/spec.core.js
+148 silly gunzTarPerm extractEntry spec/fixtures/properties.invalid.sass
+149 silly gunzTarPerm extractEntry spec/fixtures/collect.sass
+150 silly gunzTarPerm extractEntry spec/fixtures/comment.sass
+151 silly gunzTarPerm extractEntry spec/fixtures/continuation.css
+152 silly gunzTarPerm extractEntry spec/fixtures/continuation.sass
+153 silly gunzTarPerm extractEntry spec/fixtures/literal.css
+154 silly gunzTarPerm extractEntry spec/fixtures/literal.sass
+155 silly gunzTarPerm extractEntry spec/fixtures/mixin.css
+156 silly gunzTarPerm extractEntry spec/fixtures/mixin.multiple.css
+157 silly gunzTarPerm extractEntry spec/fixtures/mixin.multiple.sass
+158 silly gunzTarPerm extractEntry spec/fixtures/mixin.sass
+159 silly gunzTarPerm extractEntry spec/fixtures/mixin.undefined.sass
+160 silly gunzTarPerm extractEntry spec/fixtures/properties.css
+161 silly gunzTarPerm extractEntry spec/fixtures/properties.expand.css
+162 silly gunzTarPerm extractEntry spec/fixtures/properties.expand.sass
+163 silly gunzTarPerm extractEntry spec/fixtures/comment.css
+164 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.css
+165 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.invalid.sass
+166 silly gunzTarPerm extractEntry spec/fixtures/properties.nested.sass
+167 silly gunzTarPerm extractEntry spec/fixtures/properties.sass
+168 silly gunzTarPerm extractEntry spec/fixtures/selectors.css
+169 silly gunzTarPerm extractEntry spec/fixtures/selectors.sass
+170 silly gunzTarPerm extractEntry spec/fixtures/variables.alternate.css
+171 silly gunzTarPerm extractEntry spec/fixtures/variables.alternate.sass
+172 silly gunzTarPerm extractEntry spec/fixtures/variables.css
+173 silly gunzTarPerm extractEntry spec/fixtures/variables.dependent.css
+174 silly gunzTarPerm extractEntry spec/fixtures/variables.dependent.sass
+175 silly gunzTarPerm extractEntry spec/fixtures/variables.regular.css
+176 silly gunzTarPerm extractEntry spec/fixtures/variables.regular.sass
+177 silly gunzTarPerm extractEntry spec/fixtures/variables.sass
+178 silly gunzTarPerm extractEntry spec/lib/jspec.growl.js
+179 silly gunzTarPerm extractEntry spec/lib/jspec.jquery.js
+180 silly gunzTarPerm extractEntry spec/lib/jspec.js
+181 silly gunzTarPerm extractEntry spec/lib/jspec.nodejs.js
+182 silly gunzTarPerm extractEntry spec/lib/jspec.shell.js
+183 silly gunzTarPerm extractEntry spec/lib/jspec.timers.js
+184 silly gunzTarPerm extractEntry spec/lib/jspec.xhr.js
+185 silly gunzTarPerm extractEntry spec/lib/images/bg.png
+186 silly gunzTarPerm extractEntry spec/lib/images/hr.png
+187 silly gunzTarPerm extractEntry spec/lib/images/loading.gif
+188 silly gunzTarPerm extractEntry spec/lib/images/sprites.bg.png
+189 silly gunzTarPerm extractEntry spec/lib/images/sprites.png
+190 silly gunzTarPerm extractEntry spec/lib/images/vr.png
+191 silly gunzTarPerm extractEntry spec/lib/jspec.css
+192 silly lockFile 8b92a8c2-ww-vhosts-npm-sass-0-5-0-package tar:///var/www/vhosts/.npm/sass/0.5.0/package
+193 silly lockFile 8b92a8c2-ww-vhosts-npm-sass-0-5-0-package tar:///var/www/vhosts/.npm/sass/0.5.0/package
+194 silly lockFile 01e044c6-hosts-npm-sass-0-5-0-package-tgz tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz
+195 silly lockFile 01e044c6-hosts-npm-sass-0-5-0-package-tgz tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz
+196 verbose chmod /var/www/vhosts/.npm/sass/0.5.0/package.tgz 644
+197 verbose chown /var/www/vhosts/.npm/sass/0.5.0/package.tgz [ 503, 504 ]
+198 silly lockFile f65119f2-ry-npmjs-org-sass-sass-0-5-0-tgz https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+199 silly lockFile f65119f2-ry-npmjs-org-sass-sass-0-5-0-tgz https://registry.npmjs.org/sass/-/sass-0.5.0.tgz
+200 silly lockFile 69745589-sass-0-5-0 sass@0.5.0
+201 silly lockFile 69745589-sass-0-5-0 sass@0.5.0
+202 silly lockFile abea0ec1-sass sass@
+203 silly lockFile abea0ec1-sass sass@
+204 silly resolved [ { name: 'sass',
+204 silly resolved     description: 'Syntactically Awesome Stylesheets (compiles to css)',
+204 silly resolved     version: '0.5.0',
+204 silly resolved     keywords: [ 'sass', 'template', 'css', 'view' ],
+204 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+204 silly resolved     contributors: [ [Object] ],
+204 silly resolved     main: './lib/sass.js',
+204 silly resolved     readme: '\n# Sass.js\n\n  JavaScript implementation of Sass. Great for **node.js** and other\n  frameworks supporting the CommonJS module system.\n  \n## Installation\n\nnpm:\n\n      $ npm install sass\n\n## Usage\n\n    var sass = require(\'sass\')\n    sass.render(\'... string of sass ...\')\n    // => \'... string of css ...\'\n    \n    sass.collect(\'... string of sass ...\')\n    // => { selectors: [...], variables: { ... }, mixins: { ... }}\n    \n## Comments\n\n    // foo\n    body\n      // bar\n      a\n        :color #fff\n        \ncompiles to\n\n    body a {\n      color: #fff;}\n      \n## Variables\n\n    !red = #ff0000\n    body\n      :color !red\n      \nand\n    \n    red: #ff0000\n    body\n      :color !red\n     \ncompile to\n\n    body {\n      color: #ff0000;}\n\n## Selector Continuations\n\n    a\n      :color #fff\n      &:hover\n        :color #000\n      &.active\n        :background #888\n        &:hover\n          :color #fff\n          \ncompiles to\n\n    a {\n      color: #fff;}\n\n    a:hover {\n      color: #000;}\n\n    a.active {\n      background: #888;}\n\n    a.active:hover {\n      color: #fff;}\n      \n## Literal JavaScript\n\n    type: "solid"\n    size: 1\n    input\n      :border { parseInt(size) + 1 }px {type} #000\n      \ncompiles to\n\n    input {\n      border: 2px "solid" #000;}\n      \n## Property Expansion\n\n    div\n      =border-radius 5px\n      \ncompiles to\n\n    div {\n      -webkit-border-radius: 5px;\n      -moz-border-radius: 5px;}\n      \n## Mixins\n\n     +large\n       :font-size 15px\n     +striped\n       tr\n         :background #fff\n         +large\n         &:odd\n           :background #000\n     table\n       +striped\n       :border none\n       \ncompiles to\n\n    table {\n      border: none;}\n    table tr {\n      background: #fff;}\n    table tr {\n      font-size: 15px;}\n    table tr:odd {\n      background: #000;}\n    \n    \n## Testing\n\nUpdate Git submodules and execute:\n    $ make test\n    \n## More Information\n\n* Featured in [Advanced JavaScript e-book](http://www.dev-mag.com/2010/02/18/advanced-javascript/) for only $4\n  \n## License \n\n(The MIT License)\n\nCopyright (c) 2009 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+204 silly resolved     readmeFilename: 'Readme.md',
+204 silly resolved     _id: 'sass@0.5.0',
+204 silly resolved     dist: { shasum: '0632ff68da4bcb5101fb56657c1cf3e255aa9a0a' },
+204 silly resolved     _from: 'sass@',
+204 silly resolved     _resolved: 'https://registry.npmjs.org/sass/-/sass-0.5.0.tgz' } ]
+205 info install sass@0.5.0 into /usr/lib
+206 info installOne sass@0.5.0
+207 info /usr/lib/node_modules/sass unbuild
+208 verbose tar unpack /var/www/vhosts/.npm/sass/0.5.0/package.tgz
+209 silly lockFile d7135018-tar-usr-lib-node-modules-sass tar:///usr/lib/node_modules/sass
+210 verbose lock tar:///usr/lib/node_modules/sass /var/www/vhosts/.npm/d7135018-tar-usr-lib-node-modules-sass.lock
+211 silly lockFile 01e044c6-hosts-npm-sass-0-5-0-package-tgz tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz
+212 verbose lock tar:///var/www/vhosts/.npm/sass/0.5.0/package.tgz /var/www/vhosts/.npm/01e044c6-hosts-npm-sass-0-5-0-package-tgz.lock
+213 silly gunzTarPerm modes [ '755', '644' ]
+214 error Error: EACCES, mkdir '/usr/lib/node_modules/sass'
+214 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/sass']
+214 error   errno: 3,
+214 error   code: 'EACCES',
+214 error   path: '/usr/lib/node_modules/sass',
+214 error   fstream_type: 'Directory',
+214 error   fstream_path: '/usr/lib/node_modules/sass',
+214 error   fstream_class: 'DirWriter',
+214 error   fstream_stack:
+214 error    [ '/usr/lib/node_modules/fstream/lib/dir-writer.js:36:23',
+214 error      '/usr/lib/node_modules/mkdirp/index.js:37:53',
+214 error      'Object.oncomplete (fs.js:108:15)' ] }
+215 error Please try running this command again as root/Administrator.
+216 error System Linux 2.6.32-573.el6.x86_64
+217 error command "node" "/usr/bin/npm" "isntall" "sass" "-g"
+218 error cwd /var/www/vhosts/_dev/spark-wordpress
+219 error node -v v0.10.36
+220 error npm -v 1.3.6
+221 error path /usr/lib/node_modules/sass
+222 error fstream_path /usr/lib/node_modules/sass
+223 error fstream_type Directory
+224 error fstream_class DirWriter
+225 error code EACCES
+226 error errno 3
+227 error stack Error: EACCES, mkdir '/usr/lib/node_modules/sass'
+228 error fstream_stack /usr/lib/node_modules/fstream/lib/dir-writer.js:36:23
+228 error fstream_stack /usr/lib/node_modules/mkdirp/index.js:37:53
+228 error fstream_stack Object.oncomplete (fs.js:108:15)
+229 verbose exit [ 3, true ]

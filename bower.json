@@ -1,0 +1,17 @@
+{
+  "name": "spark-wordpress",
+  "version": "1.0.0",
+  "authors": [
+    "joeydsmith <joey@sparkexperience.com>"
+  ],
+  "description": "Default Wordpress Install ( via Gulp.js )",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

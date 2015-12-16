@@ -1,0 +1,16 @@
+{
+  "name": "spark-wordpress",
+  "repository": "none",
+  "version": "1.0.0",
+  "description": "Default Wordpress Install ( via Gulp.js )",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Spark Experience",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-install": "^0.6.0",
+    "gulp": "~3.9.0"
+  }
+}
